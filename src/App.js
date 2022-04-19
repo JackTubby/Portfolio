@@ -1,4 +1,5 @@
-import './App.css';
+import './Style Sheets/App.css';
+import './Style Sheets/padding.css';
 import Intro from './components/Intro'
 
 function App() {
