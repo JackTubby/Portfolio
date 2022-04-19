@@ -1,0 +1,26 @@
+.navlrg--wrapper {
+    /* z-index: 1; */
+    border: 2px solid #fff;
+    border-radius: 10px;
+    height: auto;
+    padding: 10px;
+    /* Vertically align */
+    position: absolute; /* Can be fixed or absolute */
+    top: 2%;
+    right: 2%;
+}
+
+.navlrg--btn {
+    color: #fff;
+    font-family: 'Quicksand', 'Roboto', sans-serif;
+    display: block;
+    border: none;
+    background-color: transparent;
+    padding: 5px;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.navlrg--btn:hover {
+    text-decoration: underline #5bd881;
+}
