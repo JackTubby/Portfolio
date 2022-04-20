@@ -1,4 +1,5 @@
 import '../Style Sheets/intro.css'
+import SocialIconsBar from './SocialIconsBar'
 
 export default function Intro() {
     return(
@@ -14,6 +15,9 @@ export default function Intro() {
                 </h1>
                 <div className="intro--tagText">{`</h1>`}</div>
                 <button class="animated-border-button">Get In Touch</button>
+            </div>
+            <div className="intro--socialWrapper">
+                <SocialIconsBar />
             </div>
         </div>
     )
