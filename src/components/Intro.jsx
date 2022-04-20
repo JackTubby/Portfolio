@@ -1,3 +1,5 @@
+import '../Style Sheets/intro.css'
+
 export default function Intro() {
     return(
         <div>
