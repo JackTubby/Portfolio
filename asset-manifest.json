@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.2e6ec51c.css",
-    "main.js": "/Portfolio/static/js/main.26cf5d6f.js",
+    "main.css": "/Portfolio/static/css/main.6dab712a.css",
+    "main.js": "/Portfolio/static/js/main.6dd5d150.js",
     "index.html": "/Portfolio/index.html",
-    "main.2e6ec51c.css.map": "/Portfolio/static/css/main.2e6ec51c.css.map",
-    "main.26cf5d6f.js.map": "/Portfolio/static/js/main.26cf5d6f.js.map"
+    "main.6dab712a.css.map": "/Portfolio/static/css/main.6dab712a.css.map",
+    "main.6dd5d150.js.map": "/Portfolio/static/js/main.6dd5d150.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e6ec51c.css",
-    "static/js/main.26cf5d6f.js"
+    "static/css/main.6dab712a.css",
+    "static/js/main.6dd5d150.js"
   ]
 }
