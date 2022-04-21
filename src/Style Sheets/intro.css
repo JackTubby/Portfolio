@@ -68,7 +68,11 @@
 }
 
 .intro--socialIcons {
-  height: 36px;
+  height: 32px;
   padding: 0 10px;
-  margin: 10px 13px;
+  margin: 12px 13px;
+}
+
+.intro--socialIcons:hover {
+  height: 36px;
 }
