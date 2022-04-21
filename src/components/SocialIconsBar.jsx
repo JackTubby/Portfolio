@@ -8,7 +8,11 @@ export default function SocialIconsBar() {
         <div>
             <div>
                 <img className="intro--socialIcons" src={gmail} alt="gmail icon" />
+            </div>
+            <div>
                 <img className="intro--socialIcons" src={linkedIn} alt="linkedIn icon" />
+            </div>
+            <div>
                 <img className="intro--socialIcons" src={twitter} alt="Twitter Icon" />
             </div>
         </div>
