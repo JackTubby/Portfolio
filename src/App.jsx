@@ -2,6 +2,7 @@ import './Style Sheets/App.css';
 import './Style Sheets/padding.css';
 import Intro from './components/Intro'
 import NavLrg from './components/NavbarLarge'
+import ProjectCards from './components/projects/ProjectCards'
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
         < NavLrg />
       </section>
       <section className='section2'>
-        <h1>Test</h1>
+        <ProjectCards />
       </section>
     </div>
   );
