@@ -1,14 +1,23 @@
 import ProjectCard from "./ProjectCards"
 
-export default function ProjectSection(){
+import data from './projectsData'
 
-    
+
+export default function ProjectSection(){
+    const projects = data.map(project => {
+        return (
+            <ProjectCard
+                key={project.id}
+                {...project}
+            />
+        )
+    })
 
     return (
         <div className='container'>
             <div className='row'>
                 <div className='col-3'>
-                    <ProjectCard />
+                    {projects}
                 </div>
             </div>
         </div>
