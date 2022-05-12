@@ -1,4 +1,59 @@
-.card {
-    width: auto;
+.card--wrapper {
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    background-color: white;
+    padding-bottom: 20px;
+    border-radius: 10px;
 }
 
+.card--logo {
+    border-radius: 50%;
+    height: 8em;
+    width: 8em;
+    position: relative;
+    bottom: 50px;
+    border: 8px solid rgba(91,	216, 129, 0.7);
+    text-shadow: 22px 22px red;
+    box-shadow: rgba(91, 216,129, 0.6) 0px 13px 27px -5px, rgba(91, 216, 129, 0.5) 0px 8px 16px -8px;
+}
+
+.card--body {
+    position: relative;
+    bottom: 35px;
+}
+
+.card--text {
+    font-family: 'Quicksand', 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #282828;
+}
+
+.card--icons {
+    height: 40px;
+    margin: 0 10px;
+}
+
+.card--btn {
+    margin: 30px 10px 0 10px;
+    border-radius: 30px;
+    border: none;
+    padding: 12px;
+    color: white;
+    font-weight: 600;
+    min-width: 12rem;
+    transition: transform 550ms;
+}
+
+.card--message {
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(42,115,208,1) 100%);
+}
+
+.card--github {
+    background: linear-gradient(90deg, rgba(227,31,104,1) 0%, rgba(204,87,40,1) 100%);
+}
+
+.card--btn:hover {
+    position: relative;
+    transform: translateY(-5px);
+}
