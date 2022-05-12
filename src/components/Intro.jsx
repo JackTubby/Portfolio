@@ -14,7 +14,7 @@ export default function Intro() {
                     <div>Frontend Developer</div>
                 </h1>
                 <div className="intro--tagText">{`</h1>`}</div>
-                <button class="animated-border-button">Get In Touch</button>
+                <button className="animated-border-button">Get In Touch</button>
             </div>
             <div className="intro--socialWrapper">
                 <SocialIconsBar />
