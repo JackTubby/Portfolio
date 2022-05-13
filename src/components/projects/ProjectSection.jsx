@@ -4,6 +4,8 @@ import data from './projectsData'
 
 
 export default function ProjectSection(){
+
+
     const projects = data.map(project => {
         return (
             <ProjectCard
@@ -16,7 +18,7 @@ export default function ProjectSection(){
     return (
         <div className='container'>
             <div className='row'>
-                <div className='col-3'>
+                <div className='col-12'>
                     {projects}
                 </div>
             </div>
