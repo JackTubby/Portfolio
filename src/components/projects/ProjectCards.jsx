@@ -11,16 +11,16 @@ export default function ProjectCards(props) {
         <div className='card--wrapper'>
             <img className='card--logo' src={purity} alt="Project Logo" />
             <div className='card--body'>
-                <h3 className='card--text card--title'>{props.name}</h3>
-                <p className='card--text'>{props.info}</p>
-                <div className='card--text'>
+                <h3 className='card--text card--title pt-2'>{props.name}</h3>
+                <p className='card--text pt-4'>{props.info}</p>
+                <div className='card--text pt-2'>
                     <span><img className='card--icons' src={html} alt="project languages icons" /></span>
                     <span><img className='card--icons' src={css} alt="project languages icons" /></span>
                     <span><img className='card--icons' src={js} alt="project languages icons" /></span>
                     <span><img className='card--icons' src={react} alt="project languages icons" /></span>
                 </div>
-                <div className='card--text'>
-                    <span><button className='card--btn card--message'>Message</button></span>
+                <div className='card--text pt-3'>
+                    {/* MESSAGE BTN <span><button className='card--btn card--message'>Message</button></span> */}
                     <span><button className='card--btn card--github'>Visit</button></span>
                 </div>
             </div>
