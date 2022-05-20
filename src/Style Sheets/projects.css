@@ -1,7 +1,19 @@
+/*  Project Section Styling   */
+.project--Titlewrapper {
+    margin-bottom: 7rem;
+}
+
+.project--title {
+    color: white;
+    font-size: 42px;
+    padding-left: 20px;
+}
+
+/*  Project Cards Styling   */
 .card--wrapper {
     margin: auto;
     text-align: center;
-    width: 80%;
+    width: auto;
     background-color: white;
     padding-bottom: 20px;
     border-radius: 10px;
@@ -24,10 +36,15 @@
     bottom: 35px;
 }
 
+.card--title {
+    font-size: 32px !important;
+}
+
 .card--text {
     font-family: 'Quicksand', 'Roboto', sans-serif;
     font-weight: 600;
     color: #282828;
+    font-size: 24px;
 }
 
 .card--icons {
