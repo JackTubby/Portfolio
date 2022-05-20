@@ -7,6 +7,7 @@ body {
   -ms-animation: fadeIn 5s;
 }
 
+/* Section Page Heights */
 .section1 {
   height: 100vh;
 }
@@ -15,8 +16,30 @@ body {
   height: 100vh;
 }
 
+/* Page headers & tag stylings */
+.tagText {
+  color: rgb(151, 151, 151);
+  font-family: 'Square Peg', 'Roboto', sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.header-wrapper {
+  padding-left: 60px;
+}
+
+.headers {
+  color: white;
+  font-family: 'Quicksand', 'Roboto', sans-serif;
+  font-size: 48px;
+  padding-left: 15px;
+}
+
+
+/* Website fadein affect */
 /* KeyFrames */
 @keyframes fadeIn {
   0% {opacity:0;}
   100% {opacity:1;}
 }
+
