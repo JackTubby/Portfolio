@@ -2,6 +2,7 @@ import '../Style Sheets/intro.css'
 import SocialIconsBar from './SocialIconsBar'
 
 export default function Intro() {
+
     return(
         <div>
             <p className="tagText">{`<Html/>`}</p>
