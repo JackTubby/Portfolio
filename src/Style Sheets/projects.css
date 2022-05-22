@@ -1,8 +1,3 @@
-/*  Project Section Styling   */
-.project--Titlewrapper {
-    margin-bottom: 4rem;
-}
-
 .project--title {
     color: white;
     font-size: 42px;
@@ -17,7 +12,7 @@
     background-color: white;
     padding-bottom: 20px;
     border-radius: 10px;
-    margin-bottom: 65px;
+    margin-top: 5rem;
 }
 
 .card--logo {
@@ -74,4 +69,11 @@
 .card--btn:hover {
     position: relative;
     transform: translateY(-5px);
+}
+
+.allProjectsBtn {
+    margin-top: 12px;
+    padding: 9px 56px 9px;
+    position: relative;
+    float: right;
 }

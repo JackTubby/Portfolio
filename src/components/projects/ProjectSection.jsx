@@ -1,4 +1,5 @@
 import '../../Style Sheets/projects.css'
+import '../../Style Sheets/animated-border-btn.css'
 
 import ProjectCard from "./ProjectCards"
 
@@ -26,7 +27,7 @@ export default function ProjectSection(){
                 <div className='tagText'>{`<p>`}</div>
                     <p className='headers--p'>
                         Check out a couple of my personal favourite projects that I 
-                        worked on. Visit all my projects by clicking 'See More'.
+                        worked on. Visit all my projects by clicking 'All Projects'.
                     </p>
                 <div className='tagText'>{`</p>`}</div>
             </div>
@@ -35,6 +36,9 @@ export default function ProjectSection(){
                 <div className='row'>
                     <div className='col-12'>
                         {projects}
+                    </div>
+                    <div className="col-12">
+                    <button className='allProjectsBtn animated-border-button'>All Projects ></button>
                     </div>
                 </div>
             </div>
