@@ -12,45 +12,9 @@
   font-size: 54px;
 }
 
-/* Get In Touch Animated Btn */
-.animated-border-button {
-  margin-top: 20px;
-  background-color: #5bd881;
-  border: none;
-  color: #ffffff;
-  font-size: 18px;
-  font-weight: 800;
-  outline: none;
+.intro--btn {
   padding: 12px 70px 12px;
-  position: relative;
-  font-family: 'Quicksand', 'Roboto', sans-serif;
-}
-
-.animated-border-button:before,
-.animated-border-button:after {
-  border: 0 solid transparent;
-  transition: all 0.3s;
-  content: '';
-  height: 0;
-  position: absolute;
-  width: 24px;
-}
-
-.animated-border-button:before {
-  border-top: 3px solid #fff;
-  right: 0;
-  top: -4px;
-}
-
-.animated-border-button:after {
-  border-bottom: 3px solid #fff;
-  bottom: -4px;
-  left: 0;
-}
-
-.animated-border-button:hover:before,
-.animated-border-button:hover:after {
-  width: 100%;
+  margin-top: 20px;
 }
 
 /* Social Icons Bar Styling */
